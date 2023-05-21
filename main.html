@@ -8,6 +8,84 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+
+
+	 <form>
+
+                    <!--name  -->
+                    <div>
+                        <label for="name">First Name:</label>
+                        <br />
+                        <input placeholder="   Enter Name" type="text" id="name" name="name" required />
+                    </div>
+                    <br />
+
+		 <!-- email -->
+                    <div>
+                        <label for="email">Email:</label>
+                        <br />
+                        <input placeholder="   Enter Emial" type="email" id="email" required />
+                    </div>
+                    <br />
+
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <br />
+                        <span>Male</span><input value="male" type="radio" id="gender" name="gender" required/>
+						<span>Female</span><input value="female" type="radio" id="gender" name="gender"/>
+                    </div>
+                    <br />
+					<div>
+                        <label for="cars">Select Car Brand :</label>
+                        <br />
+                        <select name="cars" id="cars">
+							<option>BMW</option>
+							<option>Audi</option>
+							<option>Mercedez</option>
+						</select>
+                    </div>
+                    <br />
+                    <!-- car age -->
+                    <div>
+                        <label for="carage">Car Age:</label>
+                        <br />
+                        <input placeholder="   Car's Age" type="number" id="carage" name="carage" required />
+                    </div>
+                    <br />
+		 <!-- date of purchase -->
+                    <div>
+                        <label for="dop">Date Of Purchase:</label>
+                        <br />
+                        <input type="date" id="dop" name="dop" required />
+                    </div>
+                    <br />
+
+                    
+
+                    <!-- password -->
+                    <div>
+                        <label for="password">Password:</label>
+                        <br />
+                        <input placeholder="   Enter Password" type="password" id="password" pattern=".{6,}" required />
+                    </div>
+                    <br />
+
+                  
+                    <!-- register btn -->
+                    <div>
+                        <input id="register-btn" type="submit" value="Register" />
+                    </div>
+                    <br />
+
+
+                </form>
+
+
+
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
